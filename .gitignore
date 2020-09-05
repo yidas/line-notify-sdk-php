@@ -1,0 +1,6 @@
+/vendor
+composer.phar
+composer.lock
+
+# Sample's optional config
+/sample/_credential.php
