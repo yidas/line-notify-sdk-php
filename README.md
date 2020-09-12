@@ -24,7 +24,7 @@ OUTLINE
         - [getAuthUrl()](#getauthurl)
         - [getAccessToken()](#getaccesstoken)
         - [getCode()](#getcode)
-        - [getCurrentUrl()](#getcurrenturl)
+        - [getWebPath()](#getwebpath)
     - [Notify Client](#notify-client)
         - [notify()](#notify)
         - [status()](#status)

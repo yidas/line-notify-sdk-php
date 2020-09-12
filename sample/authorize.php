@@ -23,6 +23,6 @@ $authUrl = $lineNotifyAuth->getAuthUrl(Auth::getWebPath() . "/redirect-url.php")
 
 // Save input for next process and next form
 $_SESSION['config'] = $input;
-$_SESSION['config']['accessTokens'] = ($input['accessTokens']) ? $input['accessTokens'] : [];
+$_SESSION['config']['accessTokens'] = ($input['accessTokens'][0]) ? $input['accessTokens'] : [];
 
 header('Location: ' . $authUrl);
